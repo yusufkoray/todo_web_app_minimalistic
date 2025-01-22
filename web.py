@@ -25,5 +25,3 @@ for todo in todos:
 st.text_input(label="",placeholder="Add a todo",on_change=add_todo,key='new_todo')
 streamlit.session_state
 
-#Herhangi bir button'a basildiginda ya da herhangi bir sekilde sayfa calistirildiginda yazilan tum kodlar
-#calistiriliyor.
